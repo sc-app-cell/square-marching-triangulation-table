@@ -1,17 +1,19 @@
-int[][] lookUpTable = new int[16][];
-lookUpTable[0] = new int[]{};
-lookUpTable[1] = new int[]{7, 6, 8};
-lookUpTable[2] = new int[]{5, 4, 6};
-lookUpTable[3] = new int[]{7, 5, 8, 8, 5, 4};
-lookUpTable[4] = new int[]{3, 2, 4};
-lookUpTable[5] = new int[]{3, 2, 4, 2, 8, 4, 4, 8, 6, 6, 8, 7};
-lookUpTable[6] = new int[]{3, 2, 5, 5, 2, 6};
-lookUpTable[7] = new int[]{7, 2, 8, 2, 7, 3, 3, 7, 5};
-lookUpTable[8] = new int[]{1, 8, 2};
-lookUpTable[9] = new int[]{1, 7, 2, 2, 7, 6};
-lookUpTable[10] =new int[] {1, 8, 2, 2, 8, 6, 6, 4, 2, 6, 5, 4};
-lookUpTable[11] =new int[] {1, 7, 5, 5, 4, 1, 1, 4, 2};
-lookUpTable[12] =new int[] {1, 8, 4, 4, 3, 1};
-lookUpTable[13] =new int[] {1, 7, 3, 3, 7, 6, 6, 4, 3};
-lookUpTable[14] =new int[] {3, 1, 5, 5, 1, 6, 6, 1, 8};
-lookUpTable[15] =new int[] { 5, 3, 1, 1, 7, 5 };
+int[][] lookupTable = new int[][]
+{
+    new int[] {}, 
+    new int[] {6, 5, 7}, 
+    new int[] {4, 3, 5}, 
+    new int[] {6, 4, 7, 7, 4, 3}, 
+    new int[] {2, 1, 3}, 
+    new int[] {2, 1, 3, 1, 7, 3, 3, 7, 5, 5, 7, 6}, 
+    new int[] {2, 1, 4, 4, 1, 5}, 
+    new int[] {6, 1, 7, 1, 6, 2, 2, 6, 4}, 
+    new int[] {0, 7, 1}, 
+    new int[] {0, 6, 1, 1, 6, 5}, 
+    new int[] {0, 7, 1, 1, 7, 5, 5, 3, 1, 5, 4, 3}, 
+    new int[] {0, 6, 4, 4, 3, 0, 0, 3, 1}, 
+    new int[] {0, 7, 3, 3, 2, 0}, 
+    new int[] {0, 6, 2, 2, 6, 5, 5, 3, 2}, 
+    new int[] {2, 0, 4, 4, 0, 5, 5, 0, 7}, 
+    new int[] {4, 2, 0, 0, 6, 4}
+};
